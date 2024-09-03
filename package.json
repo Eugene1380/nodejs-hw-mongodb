@@ -10,7 +10,7 @@
     "dev": "nodemon src/index.js"
   },
   "keywords": [],
-  "author": "Iryna Polgul <irpolg@ukr.net>",
+  "author": "Eugene Volobuyev <eugene.volobuyev@gmail.com>",
   "license": "ISC",
   "devDependencies": {
     "@eslint/js": "^9.8.0",
