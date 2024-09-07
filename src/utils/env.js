@@ -5,7 +5,7 @@ dotenv.config();
 export function env(name, defaultValue) {
   const value = process.env[name];
 
-  if (value !== undefined && value !== null) return value;
+  if (value) return value;
 
   if (defaultValue) return defaultValue;
 
