@@ -29,7 +29,7 @@ export const setupServer = () => {
 
   app.get('/', (req, res) => {
     res.json({
-      message: 'Welcome to Contacts Web Service !',
+      message: 'Welcome to Contacts Web Service!',
     });
   });
 
